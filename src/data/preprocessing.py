@@ -1,8 +1,12 @@
 import pandas as pd
 
-def remove_duplicates(df: pd.DataFrame) -> pd.DataFrame:
+def clean_products(df: pd.DataFrame) -> pd.DataFrame:
     df = df.drop_duplicates()
+    df = df.dropna(subset=["product_id", "name", "category", "price"])
+    df = df[df["stock"] >= 0]
+    df = df[
+        (df["rating"] >=0) &
+        (df["rating"] <= 5)]
+
     return df
 
-def check_missing_values(df: pd.DataFrame) -> pd.DataFrame:
-    return df.isnull().sum()
