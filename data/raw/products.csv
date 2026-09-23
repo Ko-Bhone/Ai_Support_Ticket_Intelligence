@@ -1,0 +1,6 @@
+product_id,name,category,brand,price,stock,rating
+1,Ryzen 7 9700X,CPU,AMD,359.99,20,4.8
+2,RTX 5070,GPU,NVIDIA,699.99,15,4.7
+3,32GB DDR5 RAM,RAM,Corsair,99.99,50,4.6
+4,1TB NVMe SSD,SSD,Samsung,89.99,30,4.7
+5,B650 Motherboard,Motherboard,ASUS,179.99,10,4.5
