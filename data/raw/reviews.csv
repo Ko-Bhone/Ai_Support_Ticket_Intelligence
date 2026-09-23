@@ -1,0 +1,4 @@
+review_id,user_id,product_id,review_text,rating
+1,101,2,"Excellent GPU performance",5
+2,102,2,"Runs hot under heavy load",3
+3,103,1,"Great CPU for gaming",5

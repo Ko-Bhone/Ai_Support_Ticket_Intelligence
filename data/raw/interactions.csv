@@ -1,0 +1,5 @@
+user_id,product_id,event,timestamp
+101,2,view,2026-09-01
+101,2,cart,2026-09-01
+101,1,purchase,2026-09-02
+102,3,view,2026-09-03
